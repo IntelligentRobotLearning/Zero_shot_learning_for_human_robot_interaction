@@ -1,0 +1,3 @@
+/home/shuzhen/MASS2/core/build/CMakeFiles/edit_cache.dir
+/home/shuzhen/MASS2/core/build/CMakeFiles/rebuild_cache.dir
+/home/shuzhen/MASS2/core/build/CMakeFiles/test.dir

@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 2.8.6)
+#项目名称
+project(test)
+#代码路径
+aux_source_directory(. DIR_TOOT_SRCS)
+find_package(DART REQUIRED COMPONENTS collision-bullet CONFIG)
+include_directories(${DART_INCLUDE_DIRS})
+
+file(GLOB srcs "*.h" "*.cpp")
+#dubug 模式
+set (CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -g")
+#生成可执行的文件
+add_executable(test ${DIR_TOOT_SRCS})
